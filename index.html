@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mobile Shop</title>
+    <link
+      rel="stylesheet"
+      href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav class="navbar">
+      <div class="navbar-center">
+        <span class="nav-icon">
+          <i class="fa fa-bars"></i>
+        </span>
+        <img src="./images/logo.svg" alt="store logo" />
+        <div class="cart-btn">
+          <span class="nav-icon">
+            <i class="fa fa-cart-plus"> </i>
+          </span>
+          <div class="cart-items">0</div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav bar -->
+    <!-- hero -->
+    <header class="hero">
+      <div class="banner">
+        <h1 class="banner-title">The Best Phone Shops</h1>
+        <button class="banner-btn">Shop Now</button>
+      </div>
+    </header>
+    <!-- products -->
+    <section class="products">
+      <div class="section-title">
+        <h2>Our Products</h2>
+      </div>
+      <div class="products-center"></div>
+    </section>
+    <!-- end of products -->
+    <!-- card -->
+    <div class="cart-overlay">
+      <div class="cart">
+        <span class="close-cart">
+          <i class="fa fa-window-close"></i>
+        </span>
+        <h2>Your Cart</h2>
+        <div class="cart-content">
+          <!-- cart time -->
+          <!-- <div class="cart-item">
+           
+          </div> -->
+          <!-- end of cart time -->
+        </div>
+        <!-- end of card -->
+        <div class="cart-footer">
+          <h3>Your Total: $ <span class="cart-total">0</span></h3>
+          <button class="clear-cart banner-btn">Clear Cart</button>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
